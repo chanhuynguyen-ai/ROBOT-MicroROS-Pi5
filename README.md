@@ -1,9 +1,8 @@
 # MicroROS-Pi5
 
-MAP-TRAFFIC-MODEL là thiết kế bản đồ giao thông mô phỏng kích thước 3m × 3m dành cho hệ thống xe tự hành. Mô hình được xây dựng để phục vụ nghiên cứu, học tập và thử nghiệm các thuật toán nhận diện làn đường, điều hướng và điều khiển xe trong môi trường giao thông thu nhỏ.
+**MicroROS-Pi5** là dự án xây dựng hệ thống **robot nhúng sử dụng micro-ROS trên Raspberry Pi 5** để kết nối vi điều khiển với hệ sinh thái **ROS 2**. Mục tiêu của đề tài là tạo cầu nối giữa thế giới **embedded real-time** (ESP32/STM32) và hệ thống robot cấp cao chạy trên Linux, cho phép trao đổi dữ liệu cảm biến, điều khiển cơ cấu chấp hành và tích hợp thuật toán AI/Computer Vision trong cùng một kiến trúc ROS thống nhất.
 
-Bản đồ bao gồm hệ thống làn đường thẳng, giao lộ, đường cong, vạch sang đường, khu đỗ xe và vòng chạy khép kín, cho phép kiểm thử nhiều tình huống di chuyển thực tế. Mô hình tương thích với các nền tảng như JetRacer (Jetson Nano), Raspberry Pi 5, ROS, camera xử lý ảnh và các hệ thống robot di động.
+Hệ thống tập trung vào giao tiếp **publisher/subscriber, service và message** giữa vi điều khiển và ROS 2 thông qua micro-ROS agent chạy trên Pi 5. Dự án phù hợp cho các ứng dụng robot di động, xe tự hành mô hình, IoT robot, và các bài toán cần độ trễ thấp ở tầng điều khiển nhưng vẫn khai thác được sức mạnh xử lý của Raspberry Pi.
 
-Dự án phù hợp cho đồ án sinh viên, nghiên cứu Robotics – AI – Computer Vision, và các bài toán thử nghiệm navigation trong môi trường vật lý.
 
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/5cd6047e-0efa-4f44-b260-8a1592592784" />
